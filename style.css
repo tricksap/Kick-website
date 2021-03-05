@@ -61,7 +61,7 @@ p {
 
 /* mid */
 #mid {
-  padding: 7%;
+  margin-top: 7%;
 }
 
 .story {
@@ -74,18 +74,33 @@ p {
   margin: 10rem;
 }
 
+/* best seller */
+.best {
+  padding-top: 7%;
+}
+
+.product {
+  width: 40%;
+  margin: auto;
+}
+
 /* store */
-#branch {
-  padding-top: 10%;
+#bottom {
+  margin: 7% 0%;
 }
 
-.parent {
-  position: relative;
+.branch {
+  height: 60vh;
+  margin: 0% 20%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
-.over-img {
-  position: absolute;
-  top: 80%;
-  right: 20%;
-  background-color: black;
+/* Footer */
+#footer {
+  background-color: bisque;
+  padding: 0.2%;
 }
