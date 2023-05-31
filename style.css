@@ -27,7 +27,7 @@ p {
 /* top */
 #title {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("https://static.wixstatic.com/media/266d51_bee448c5ce1c44baadcb2926a19e2eef~mv2.jpg/v1/fill/w_1899,h_1204,al_c,q_90,usm_0.66_1.00_0.01/266d51_bee448c5ce1c44baadcb2926a19e2eef~mv2.webp");
+    url("images/266d51_bee448c5ce1c44baadcb2926a19e2eef~mv2.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -35,6 +35,19 @@ p {
   height: 100vh;
   position: relative;
 }
+
+
+#branch {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("/images/counter.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 80%;
+  height: 80vh;
+  position: relative;
+}
+
 .name {
   position: absolute;
   top: 50%;
@@ -45,6 +58,25 @@ p {
   color: azure;
 
   text-align: center;
+}
+
+.menu{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  
+
+  text-align: center;
+  
+}
+
+.menu h1{
+  /* font-size: 450%; */
+  font-family: "Montserrat";
+  font-weight: 900;
+  color: azure;
 }
 
 .info {
@@ -114,7 +146,11 @@ p {
 
 /* store */
 #bottom {
-  margin: 7% 0%;
+/* background-repeat: no-repeat;
+background-size: cover;
+background-position: center; */
+/* height: 80%;
+height: 80vh; */
 }
 
 .branch {
@@ -122,7 +158,16 @@ p {
   text-align: left;
 }
 .branch-pic {
-  width: 70%;
+background: url('/images/chair.jpg') no-repeat; 
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+height: 70%;
+height: 70vh;
+position: relative;
+}
+#bottom h2 {
+  font-weight: 900;
 }
 
 /* Footer */
